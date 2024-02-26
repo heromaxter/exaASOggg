@@ -1,0 +1,12 @@
+[Unit]
+Description=Espacio Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/ggg/Desktop/examenASOggg/tarea5.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+o
